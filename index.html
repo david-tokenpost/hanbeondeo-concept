@@ -63,7 +63,7 @@ footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);font-si
  <h1>보내기 전에,<br>한번더.</h1>
  <p class="lead">지갑 주소, 거래소 사이트, 리딩방 링크, 코인 이름, 받은 화면 캡처를 붙여넣으면 AI가 근거와 함께 위험 신호를 알려 줍니다. 부모님 계정에서 수상한 출금이 생기면 가족에게 알리고, 거래소·은행·통신사는 같은 판단을 API로 씁니다.</p>
  <div class="cta"><a class="btn pri" href="mockup.html">화면 시안 보기 →</a><a class="btn sec" href="#vs">Chainalysis·TRM과의 차이</a></div>
- <nav class="toc"><a href="#problem">문제</a><a href="#product">제품</a><a href="#how">작동 방식</a><a href="#flow">흐름</a><a href="#vs">글로벌 도구와의 차이</a><a href="#moat">왜 우리인가</a><a href="#money">수익 구조</a><a href="#rules">원칙</a><a href="#risk">리스크</a><a href="#plan">실행 계획</a></nav>
+ <nav class="toc"><a href="#problem">문제</a><a href="#product">제품</a><a href="#how">작동 방식</a><a href="#flow">흐름</a><a href="#vs">글로벌 도구와의 차이</a><a href="#moat">왜 우리인가</a><a href="#pw">Proof Watch와의 관계</a><a href="#money">수익 구조</a><a href="#forecast">예상 매출</a><a href="#rules">원칙</a><a href="#risk">리스크</a><a href="#plan">실행 계획</a></nav>
 </div>
 
 <section id="one">
@@ -164,16 +164,54 @@ footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);font-si
  </table>
 </section>
 
-<section id="money">
- <h2><span class="n">08 · 수익 구조</span>개인은 무료로 지키고, 기업이 돈을 낸다</h2>
+<section id="pw">
+ <h2><span class="n">07+ · Proof Watch와의 관계</span>엔진은 같이 쓰고, 브랜드와 판단은 분리한다</h2>
+ <p class="point">완전 별도도, 완전 통합도 아니다. "같은 데이터 엔진, 다른 얼굴"이다.</p>
  <table>
-  <tr><th>수익원</th><th style="width:28%">가격 가설</th><th>메모</th></tr>
-  <tr><td>개인 확인</td><td>무료</td><td>유입과 신고 데이터 축적. 광고는 받지 않음(신뢰)</td></tr>
-  <tr><td>가족 보호 구독</td><td>월 4,900~9,900원</td><td>부모님 계정 알림, 가족 공유, 상담 연결</td></tr>
-  <tr><td>기업 API</td><td>호출량 기준 월 구독</td><td>국내 거래소, 은행, 통신사(문자 링크 검사), 핀테크, 지갑 앱</td></tr>
-  <tr><td>위험 리포트</td><td>건당</td><td>특정 주소·사이트 심층 분석 (기업·로펌·언론)</td></tr>
-  <tr><td>사기 수법 데이터 공급</td><td>연간 계약</td><td>한국 오프체인 사기 데이터를 글로벌 분석사·보안사에 공급</td></tr>
+  <tr><th style="width:22%">층</th><th>Proof Watch</th><th>한번더</th></tr>
+  <tr><td><b>데이터 수집·AI 분류</b></td><td colspan="2" style="text-align:center"><b>공유</b> · 한국 미디어·커뮤니티·텔레그램 수집, 문장 단위 감정·리스크 분류(이미 운영 중)</td></tr>
+  <tr><td><b>고객</b></td><td>프로젝트·거래소·재단 (여론과 평판 관리)</td><td>개인·가족 + 거래소·은행·통신사 (사기 차단)</td></tr>
+  <tr><td><b>질문</b></td><td>"한국에서 우리 평판은 어떤가"</td><td>"이 주소·사이트·방에 돈을 보내도 되나"</td></tr>
+  <tr><td><b>브랜드</b></td><td>B2B 여론 인텔리전스</td><td>대중용 사기 확인 브랜드 (별도)</td></tr>
  </table>
+ <div class="warn"><b>왜 브랜드를 분리하나 (이해충돌):</b> Proof Watch는 프로젝트와 거래소에 구독을 팝니다. 같은 이름으로 "이 프로젝트는 위험"이라고 판정하면, 고객을 판정하는 구조가 되어 양쪽 신뢰가 모두 흔들립니다. 그래서 한번더의 위험 판단은 별도 기준과 검토 절차로 운영하고, 영업과 완전히 분리합니다. 고객이라는 이유로 판정이 바뀌지 않습니다.</div>
+ <p><b>서로 주고받는 것</b></p>
+ <ul>
+  <li><b>Proof Watch → 한번더:</b> 커뮤니티 경고 글과 피해 증언, 리스크 분류(해킹·출금 지연·사기 의혹 등), 한국 진출 프로젝트의 공식 정보</li>
+  <li><b>한번더 → Proof Watch:</b> 사칭 도메인·가짜 거래소·리딩방 탐지 결과를 <b>"Proof Watch 리스크 모듈"</b>로 제공. 거래소 고객은 "우리 거래소를 사칭한 사이트가 생겼다"는 알림을 받음 (자기 보호용이라 이해충돌이 없음)</li>
+  <li><b>TokenPost:</b> 주간 사기 경보 공동 연재로 대중 유입</li>
+ </ul>
+</section>
+
+<section id="money">
+ <h2><span class="n">08 · 수익 구조</span>개인은 무료로 지키고, 아홉 갈래에서 번다</h2>
+ <table>
+  <tr><th style="width:26%">수익원</th><th>누가 내나</th><th style="width:24%">가격 가설</th></tr>
+  <tr><td><b>1. 가족 보호 구독</b></td><td>부모님을 챙기는 자녀</td><td>월 4,900~9,900원</td></tr>
+  <tr><td><b>2. 기업 확인 API</b></td><td>국내 거래소, 지갑 앱, 핀테크 (출금 주소·입금 요청 확인)</td><td>호출량 기준 월 구독</td></tr>
+  <tr><td><b>3. 화이트라벨</b></td><td>은행·증권·통신사 앱 안에 "코인 사기 확인" 기능을 우리 이름 없이 탑재</td><td>연간 라이선스</td></tr>
+  <tr><td><b>4. 통신사 문자 링크 검사</b></td><td>통신사·스팸 차단 앱 (문자 속 가짜 거래소 링크 차단)</td><td>건당 또는 연간</td></tr>
+  <tr><td><b>5. Proof Watch 리스크 모듈</b></td><td>거래소·재단 (사칭 사이트·가짜 앱·사기 언급 감시)</td><td>Proof Watch 추가 상품</td></tr>
+  <tr><td><b>6. 공식 정보 등록·검증</b></td><td>프로젝트·거래소 (공식 주소·도메인·채널을 검증해 "확인된 공식 정보"로 등록)</td><td>연간 검증료</td></tr>
+  <tr><td><b>7. 위험 리포트</b></td><td>로펌·언론·기업 (특정 주소·사이트 심층 분석)</td><td>건당</td></tr>
+  <tr><td><b>8. 데이터 라이선스</b></td><td>글로벌 블록체인 분석사·보안사·연구기관 (한국 오프체인 사기 데이터)</td><td>연간 계약</td></tr>
+  <tr><td><b>9. 공공·교육</b></td><td>지자체·경찰·금융기관 (고령층 사기 예방 교육, 공공 과제)</td><td>사업·과제 단위</td></tr>
+ </table>
+ <p class="mute">6번은 검증료를 받는다고 위험 판정이 바뀌지 않습니다. 검증은 "이 주소가 정말 공식 주소인가"만 확인하고, 위험 판단은 별도 기준으로 독립 운영합니다.</p>
+
+ <p class="point" id="forecast">예상 매출 추이 (기본 시나리오)</p>
+ <div class="flow"><svg viewBox="0 0 760 320" role="img" aria-label="예상 연 매출, 기본 시나리오" font-family="Noto Sans KR, sans-serif" style="width:100%;height:auto;display:block"><text x="20" y="26" font-size="14" font-weight="700" fill="#101828">예상 연 매출 · 기본 시나리오 (억 원)</text><line x1="92" x2="530" y1="272.0" y2="272.0" stroke="#E4E7EC"/><text x="84" y="276.0" text-anchor="end" font-size="11" fill="#98A2B3">0</text><line x1="92" x2="530" y1="225.3" y2="225.3" stroke="#E4E7EC"/><text x="84" y="229.3" text-anchor="end" font-size="11" fill="#98A2B3">10</text><line x1="92" x2="530" y1="178.7" y2="178.7" stroke="#E4E7EC"/><text x="84" y="182.7" text-anchor="end" font-size="11" fill="#98A2B3">20</text><line x1="92" x2="530" y1="132.0" y2="132.0" stroke="#E4E7EC"/><text x="84" y="136.0" text-anchor="end" font-size="11" fill="#98A2B3">30</text><line x1="92" x2="530" y1="85.3" y2="85.3" stroke="#E4E7EC"/><text x="84" y="89.3" text-anchor="end" font-size="11" fill="#98A2B3">40</text><rect x="110" y="269.2" width="88" height="2.8" fill="#0F766E"/><rect x="110" y="267.3" width="88" height="1.9" fill="#2E90FA"/><rect x="110" y="265.9" width="88" height="1.4" fill="#7A5AF8"/><rect x="110" y="263.6" width="88" height="2.3" fill="#DC6803"/><rect x="110" y="262.2" width="88" height="1.4" fill="#98A2B3"/><text x="154" y="254.2" text-anchor="middle" font-weight="900" font-size="15" fill="#101828">2.1억</text><text x="154" y="292" text-anchor="middle" font-size="13" fill="#475467">1년차</text><rect x="250" y="254.7" width="88" height="17.3" fill="#0F766E"/><rect x="250" y="230.9" width="88" height="23.8" fill="#2E90FA"/><rect x="250" y="223.9" width="88" height="7.0" fill="#7A5AF8"/><rect x="250" y="213.2" width="88" height="10.7" fill="#DC6803"/><rect x="250" y="208.5" width="88" height="4.7" fill="#98A2B3"/><text x="294" y="200.5" text-anchor="middle" font-weight="900" font-size="15" fill="#101828">13.6억</text><text x="294" y="292" text-anchor="middle" font-size="13" fill="#475467">2년차</text><rect x="390" y="210.4" width="88" height="61.6" fill="#0F766E"/><rect x="390" y="128.3" width="88" height="82.1" fill="#2E90FA"/><rect x="390" y="114.3" width="88" height="14.0" fill="#7A5AF8"/><rect x="390" y="88.6" width="88" height="25.7" fill="#DC6803"/><rect x="390" y="79.3" width="88" height="9.3" fill="#98A2B3"/><text x="434" y="71.3" text-anchor="middle" font-weight="900" font-size="15" fill="#101828">41.3억</text><text x="434" y="292" text-anchor="middle" font-size="13" fill="#475467">3년차</text><rect x="556" y="70" width="12" height="12" rx="2" fill="#98A2B3"/><text x="575" y="80" font-size="12.5" fill="#344054">공공·교육</text><rect x="556" y="96" width="12" height="12" rx="2" fill="#DC6803"/><text x="575" y="106" font-size="12.5" fill="#344054">데이터·리포트·검증</text><rect x="556" y="122" width="12" height="12" rx="2" fill="#7A5AF8"/><text x="575" y="132" font-size="12.5" fill="#344054">Proof Watch 리스크 모듈</text><rect x="556" y="148" width="12" height="12" rx="2" fill="#2E90FA"/><text x="575" y="158" font-size="12.5" fill="#344054">기업 API·화이트라벨</text><rect x="556" y="174" width="12" height="12" rx="2" fill="#0F766E"/><text x="575" y="184" font-size="12.5" fill="#344054">개인·가족 구독</text></svg></div>
+ <table>
+  <tr><th style="width:30%">항목</th><th>1년차</th><th>2년차</th><th>3년차</th></tr>
+  <tr><td>개인·가족 구독 (연말 구독자)</td><td>0.6억 (1,500명)</td><td>3.7억 (8,000명)</td><td>13.2억 (2.5만 명)</td></tr>
+  <tr><td>기업 API·화이트라벨·문자 검사</td><td>0.4억 (거래소 2곳)</td><td>5.1억 (8곳 + 은행·통신 1곳)</td><td>17.6억 (15곳 + 3곳)</td></tr>
+  <tr><td>Proof Watch 리스크 모듈</td><td>0.3억</td><td>1.5억</td><td>3.0억</td></tr>
+  <tr><td>데이터·리포트·공식 검증</td><td>0.5억</td><td>2.3억</td><td>5.5억</td></tr>
+  <tr><td>공공·교육</td><td>0.3억</td><td>1.0억</td><td>2.0억</td></tr>
+  <tr><td><b>합계</b></td><td><b>약 2억</b></td><td><b>약 14억</b></td><td><b>약 41억</b></td></tr>
+ </table>
+ <p><b>시나리오 폭:</b> 보수적으로 기본의 절반(3년차 약 20억), 낙관적으로 1.6배(3년차 약 65억)로 봅니다. 가장 큰 변수는 <b>기업 고객 수</b>와 <b>가족 구독 전환율</b>입니다.</p>
+ <p class="mute">가정: 가족 구독 평균 월 6,900원, 거래소 API 평균 월 300만~700만 원, 화이트라벨 1건 연 1.5억~2억 원. 모든 수치는 검증 전 가설이며, 1~2분기 파일럿 결과로 다시 계산합니다.</p>
 </section>
 
 <section id="rules">
